@@ -29,7 +29,7 @@
         app:boxBackgroundColor="@color/cardview_shadow_end_color"
             app:helperTextTextColor="#FF0000"
         android:layout_margin="15dp"
-       android:id="@+id/etName"
+       
 
         >
 
@@ -37,8 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:inputType="text"
-
-
+            android:id="@+id/etName"
             android:hint="Enter your Name" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -48,8 +47,6 @@
         android:layout_height="60dp"
         app:startIconDrawable="@drawable/baseline_email_24"
         app:helperText="Required"
-        android:id="@+id/etEmail"
-
         app:boxCornerRadiusBottomStart="40dp"
         app:boxCornerRadiusTopEnd="40dp"
         app:boxBackgroundColor="@color/cardview_shadow_end_color"
@@ -61,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:inputType="textEmailAddress"
-
+            android:id="@+id/etEmail"
             android:hint="Enter your Mail Address" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -69,9 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         app:startIconDrawable="@drawable/baseline_password_24"
-        app:helperText="Required"
-        android:id="@+id/etPassword"
-
+        app:helperText="Required"     
         app:boxCornerRadiusBottomStart="40dp"
         app:boxCornerRadiusTopEnd="40dp"
         app:boxBackgroundColor="@color/cardview_shadow_end_color"
@@ -83,6 +78,7 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:inputType="textPassword"
+            android:id="@+id/etPassword"
             android:hint="Enter your Password" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -92,7 +88,6 @@
         android:layout_height="60dp"
         app:startIconDrawable="@drawable/baseline_perm_identity_24"
         app:helperText="Required"
-         android:id="@+id/etUserName"
         app:boxCornerRadiusBottomStart="40dp"
         app:boxCornerRadiusTopEnd="40dp"
         app:boxBackgroundColor="@color/cardview_shadow_end_color"
@@ -105,7 +100,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="60dp"
-
+            android:id="@+id/etUserName"
             android:hint="Enter your User Name " />
 
     </com.google.android.material.textfield.TextInputLayout>
