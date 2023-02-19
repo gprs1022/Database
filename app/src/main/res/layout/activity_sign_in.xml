@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_image_one_signin"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="156dp"
+        android:layout_margin="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome, Sign In To Continue"
+        android:textSize="40dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:startIconDrawable="@drawable/baseline_perm_identity_24"
+        app:helperText="Required"
+        android:layout_marginTop="150dp"
+        app:boxCornerRadiusBottomStart="40dp"
+        app:boxCornerRadiusTopEnd="40dp"
+        app:boxBackgroundColor="@color/cardview_shadow_end_color"
+        app:helperTextTextColor="#FF0000"
+        android:layout_margin="15dp"
+
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:id="@+id/UserName"
+            android:hint="Enter your User Name " />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="200dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignInbtn"
+        android:text="SIGN IN"
+        />
+
+
+
+</LinearLayout>
